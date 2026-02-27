@@ -59,7 +59,7 @@ CREATE OR REPLACE API INTEGRATION foodex_handson_git_api_integration
 
 CREATE OR REPLACE GIT REPOSITORY FOODEX_HANDSON.RAW.GIT_FOODEX_HANDSON
     API_INTEGRATION = foodex_handson_git_api_integration
-    ORIGIN = 'https://github.com/YOUR_USERNAME/Foodex_handson.git';
+    ORIGIN = 'https://github.com/hwatari-snow/Foodex_handson.git';
 
 -- ============================================================
 -- STEP 6: GitリポジトリからNotebookを作成
